@@ -76,5 +76,5 @@ double arr_median(const int* arr, std::size_t n) {
     if (n % 2 != 0) med = ArrCopy[n / 2];
     else med = (ArrCopy[n / 2 - 1] + ArrCopy[n / 2]) / 2.0;
 
-    return med;
+    return med; // to commit
 }
